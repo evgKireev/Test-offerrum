@@ -1,0 +1,48 @@
+.wrapper {
+  background-color: rgba(51, 62, 81, 0.9);
+  backdrop-filter: blur(30.5px);
+  border-radius: 20px;
+  padding: 45px 19px 50px;
+  position: relative;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: -0.7px;
+  color: #fff;
+}
+
+.bgCard {
+  background-color: rgba(51, 62, 81, 0.5);
+  backdrop-filter: blur(27.5px);
+  border-radius: 20px;
+  width: 260px;
+  height: 268px;
+  position: absolute;
+  bottom: -15px;
+  z-index: -1;
+}
+
+@media (max-width: 850px) {
+  .text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .bgCard {
+    width: 210px;
+  }
+}
+
+@media (max-width: 850px) {
+ 
+}

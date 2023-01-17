@@ -1,0 +1,23 @@
+@import '_vars.scss';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Inter', system-ui, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 120%;
+  background-color: $bg;
+  color: $text;
+}
+
+.container {
+  max-width: 1285px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+

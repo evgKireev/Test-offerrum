@@ -1,0 +1,165 @@
+.inner {
+  padding: 130px 0;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  gap: 50px;
+}
+
+.el1 {
+  width: 440px;
+  height: 440px;
+  left: 386.24px;
+  background: linear-gradient(
+    170.98deg,
+    rgba(95, 56, 255, 0.25) 25.59%,
+    rgba(255, 14, 222, 0.25) 100.44%
+  );
+  filter: blur(86px);
+  transform: rotate(11.97deg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.el2 {
+  width: 440px;
+  height: 440px;
+  right: 0;
+  top: 0;
+  background: linear-gradient(
+    170.98deg,
+    rgba(95, 56, 255, 0.25) 25.59%,
+    rgba(255, 14, 222, 0.25) 100.44%
+  );
+  filter: blur(86px);
+  transform: rotate(11.97deg);
+  position: absolute;
+  z-index: -1;
+}
+
+.el3 {
+  width: 151px;
+  height: 151px;
+  right: 0;
+  top: 0;
+  background: radial-gradient(
+    95.38% 95.38% at 50.77% 4.62%,
+    #dea8ff 0%,
+    #9d6ad9 44.51%,
+    #7a2bf6 100%
+  );
+  transform: rotate(-25.73deg);
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+.el4 {
+  width: 84px;
+  height: 84px;
+  left: 0;
+  top: 0;
+  background: radial-gradient(
+    63.25% 73.53% at 65.32% 77.65%,
+    #045dfa 0%,
+    #0fc1d7 83.16%,
+    #06f6c7 100%
+  );
+  transform: rotate(7.77deg);
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+.el5 {
+  width: 131.66px;
+  height: 131.66px;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    95.38% 95.38% at 50.77% 4.62%,
+    #dea8ff 0%,
+    #9d6ad9 44.51%,
+    #7a2bf6 100%
+  );
+  filter: blur(12px);
+  transform: rotate(-25.73deg);
+  position: absolute;
+  right: 150px;
+  bottom: 115px;
+  z-index: -1;
+}
+
+@media (max-width: 850px) {
+  .title {
+    font-size: 32px;
+    line-height: 130%;
+  }
+  .cards {
+    gap: 30px;
+  }
+  .el3 {
+    width: 80px;
+    height: 80px;
+  }
+  .el4 {
+    width: 50px;
+    height: 50px;
+  }
+  .el5 {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media (max-width: 850px) {
+  .inner {
+    padding: 100px 0;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 250px);
+    gap: 50px;
+  }
+  .el1 {
+    width: 240.01px;
+    height: 240.01px;
+  }
+  .el2 {
+    width: 240px;
+    height: 240px;
+  }
+}
+@media (max-width: 600px) {
+  .inner {
+    padding: 50px 0;
+  }
+  .cards {
+    grid-template-columns: repeat(1, 260px);
+    gap: 35px;
+  }
+  .el3 {
+    width: 50px;
+    height: 50px;
+  }
+  .el4 {
+    width: 20px;
+    height: 20px;
+    top: 90px;
+  }
+}
