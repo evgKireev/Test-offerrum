@@ -1,7 +1,7 @@
 {
-  "name": "Testoffer",
+  "name": "offerrum",
   "version": "0.1.0",
-  "homepage": "https://evgKireev.github.io/TestOffer",
+  "homepage": "https://evgKireev.github.io/Test-offerrum",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",

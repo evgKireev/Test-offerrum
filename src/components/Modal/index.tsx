@@ -23,7 +23,7 @@ const Modal: React.FC<Modal> = ({ isOpenModal, setOpenModal }) => {
             Получи все нужные навыки для заработка на NFT всего за 28 дней!
           </p>
           <input className={styles.input} type="text" placeholder="Ваш email" />
-          <Button title="Оплатить" disabled={false} onClick={() => {}} className={styles} />
+          <Button title="Оплатить" disabled={false} onClick={() => {}} className={styles.btn} />
         </div>
       </div>
     </>
